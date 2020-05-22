@@ -28,7 +28,7 @@ single_exercise () {
 
 }
 
-# Indices used so strings don't get c
+# Indices used for loop so stings echoed in their entirety
 for ((i = 0; i < ${#EXERCISES[@]}; i++)); do
   single_exercise "${EXERCISES[$i]}" $DURATION
 done
