@@ -25,10 +25,12 @@ single_exercise () {
   sleep $NEAR_DONE
   say "Done with that"
   sleep $REST
-
 }
 
 # Indices used for loop so stings echoed in their entirety
+say "First off get ready for ${EXERCISES[0]}"
+sleep 3
 for ((i = 0; i < ${#EXERCISES[@]}; i++)); do
   single_exercise "${EXERCISES[$i]}" $DURATION
 done
+say "Okay, completely finished now."
