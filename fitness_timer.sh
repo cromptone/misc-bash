@@ -13,7 +13,7 @@ EXERCISES=("Hand walk"
            "Lower back squat-to-stand")
 
 
-DURATION=120
+DURATION=110
 NEAR_DONE=20
 REST=20
 
