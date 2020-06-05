@@ -21,6 +21,7 @@ fi
 
 tr '[:punct:]' ' ' < "$input_file" \
 | tr 'A-Z' 'a-z'                   \
+| tr '\t' ' '                      \
 | tr -s ' '                        \
 | tr ' ' '\n'                      \
 | sort                             \
